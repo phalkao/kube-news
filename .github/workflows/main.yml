@@ -53,4 +53,4 @@ jobs:
         with:
           images: phalkao/kube-news:${{github.run_number}}
           manifest: |
-            ./k8s/deployment.yaml
+            k8s/deployment.yaml
